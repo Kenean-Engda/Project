@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Project</title>
+</head>
+<body>
+
+    <header>
+        <h1>My Personal Portfolio</h1>
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <img src="My-photo.jpg" alt="A professional portrait of myself">
+            <p>Hello! My name is Kenean Engda, and this is my multi-section HTML portfolio page built for my frontend course.</p>
+        </section>
+        <section id="skills">
+            <h2>My Skills</h2>
+            <p>Here are the technologies and topics I am currently learning:</p>
+            <ul>
+                <li>HTML Structure & Semantics</li>
+                <li>Python Programming</li>
+                <li>I have some java skill and networkig</li>
+                <li>I am also going to start DSA</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact Form</h2>
+            <form action="#" method="POST">
+                <div>
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="topic">Inquiry Type:</label>
+                    <select id="topic" name="topic">
+                        <option value="project">Project Collaboration</option>
+                        <option value="general">General Question</option>
+                        <option value="general">For work</option>
+                    </select>
+                </div>
+                <div>
+                    <button type="submit">Submit Form</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Kenean Engda. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
