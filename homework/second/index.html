@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Task 2: Image Gallery</title>
+  <style>
+    #mainImage {
+      width: 400px;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+  <img id="mainImage" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg3hYuagxm3Q0kWVD3gi0G_2EmYbk03nP1w8RsaLXjj7zgmuSq59GO5MtF&s=10" alt="Main Display" />
+  <div style="margin-top: 10px;">
+    <button onclick="changeImage('https://images.meesho.com/images/products/563403028/7mam4_512.avif?width=360')">Image 1</button>
+    <button onclick="changeImage('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYcIepnnXLWa3S3CNsOsU-fZiE7-D_ByOXhN190nn4-XkUYNz4Got609k&s=10')">Image 2</button>
+    <button onclick="changeImage('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyc0Zvvx_pRCG-Vtm8zYwsO4y3p81THmGlujPbffjjVC55JcUrhbGM88I&s=10')">Image 3</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
